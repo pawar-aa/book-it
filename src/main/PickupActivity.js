@@ -202,7 +202,7 @@ const PickupActivity = () => {
   return (
     <div style={{ display: 'flex', padding: '20px', backgroundColor: 'black'}}>
       <div style={{ flex: '30%', paddingRight: '10px', backgroundColor: 'white', borderRadius: '10px'}}>
-        <h1>CurrentActivity</h1>
+        <h2>Edit Pickup and Dropoff</h2>
         <input id="autocomplete1" placeholder="Enter a location" type="text" style={{ width: '100%', marginBottom: '15px', fontSize: '20px'}} />
         <input id="autocomplete2" placeholder="Enter a location" type="text" style={{ width: '100%', marginBottom: '15px', fontSize: '20px'}} />
         <button onClick={handleConfirmPickup} style={{ width: '100%', backgroundColor: 'black', color: 'white', padding: '10px 20px', borderRadius: '5px', cursor: 'pointer', fontSize: '16px' }}>Confirm Details</button>
