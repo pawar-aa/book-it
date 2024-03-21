@@ -1,25 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import PickupActivity from './main/PickupActivity'; // Corrected import statement: 'pickupActivity' should be 'PickupActivity'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ backgroundColor: 'yellow' }}>
+      <div>
+        <h1>Welcome to BookIt! 🇮🇳</h1>
+      </div>
+  
+      <main>
+        <PickupActivity />
+      </main>
+  
+      <footer>
+        <div style={{ backgroundColor: 'black', color: 'white'}}>
+          <p>&copy; 2024 My Pickup App</p>
+        </div>
+      </footer>
     </div>
   );
+  
 }
 
 export default App;
