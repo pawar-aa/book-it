@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import './App.css';
 import PickupActivity from './main/PickupActivity'; // Corrected import statement: 'pickupActivity' should be 'PickupActivity'
 
 function App() {
