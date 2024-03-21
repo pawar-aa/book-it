@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import PickupActivity from './main/PickupActivity'; // Corrected import statement: 'pickupActivity' should be 'PickupActivity'
 
 function App() {
